@@ -65,7 +65,7 @@ if __name__ == '__main__':
     # Se debe encontrar el rango apropiado
     lower_yellow = np.array([15,155,155])
     upper_yellow = np.array([45,255,255])
-    min_area = 2500
+    min_area = 3300
 
     
     C = 320
@@ -87,10 +87,10 @@ if __name__ == '__main__':
 
 
         # done significa que el Duckiebot chocó con un objeto o se salió del camino
-        if done:
-            print('done!')
+       # if done:
+       #     print('done!')
         # En ese caso se reinicia el simulador
-            env.reset()
+       #     env.reset()
 
         
 
